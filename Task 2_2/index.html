@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task#2.2 _ V7</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav> <!-- how to make an anchor tag takes user to a section in the current page????-->
+            <a href="#">Home</a> 
+            <a href="#">About us</a> 
+            <a href="#">Services</a> 
+            <a href="#">Specializations</a> 
+            <a href="#">Teachers</a> 
+            <a href="#">Plans</a> 
+            <a href="#">Contact</a> 
+        </nav>
+
+        <section id="hero">
+            <h1>Welcome To Online Course</h1>
+        </section>
+
+    </header>
+    <main>
+       
+        <!--#########################################-->
+        <section id="aboutUs" class="noHero even"> <!-- This class will be used to style the common background color -->
+            <h2>About Us</h2>
+            <p>E-EDU organizaion, here we provide the best curriculum</p>
+        </section>
+        <!--#########################################--->
+        <section id="services" class="noHero odd cards list">
+            <!--noHero class is to style everything but the hero section-->
+            <!--odd (or even in other cases) class is disply two colers alternatively-->
+            <!--cards class is to style any section withe several divisions-->
+            <h2>Our Services</h2>
+            <div>
+                <div>
+                    <h4>Service1</h4>
+                    <p>Service1 description</p>
+                </div>
+                <div>
+                    <h4>Service2</h4>
+                    <p>Service2 description</p>
+                </div>
+                <div>
+                    <h4>Service3</h4>
+                    <p>Service3 description</p>
+                </div>
+                <div>
+                    <h4>Service4</h4>
+                    <p>Service4 description</p>
+                </div>
+                <div>
+                    <h4>Service5</h4>
+                    <p>Service5 description</p>
+                </div>
+            </div>
+        </section>
+        <!--#########################################--->
+        <section id="spec" class="noHero even cards list">
+            <h2>Specializations</h2>
+            <div>
+                <div>
+                    <h4>Specialization1</h4>
+                    <p>Specialization1 description and additional information</p>
+                </div>
+                <div>
+                    <h4>Specialization2</h4>
+                    <p>Specialization2 description and additional information</p>
+                </div>
+                <div>
+                    <h4>Specialization3</h4>
+                    <p>Specialization3 description and additional information</p>
+                </div>
+            </div>
+        </section>
+        <!--#########################################--->
+        <section id="teachers" class="noHero odd cards">
+            <h2>Our Teachers</h2>
+            <div>
+                <div>
+                    <img class="inside" src="./Assets/Images/mteacher.jpg" alt="Teacher">
+                    <h5>Sam Wilson</h5>
+                    <p>Teacher1's bio</p>
+                </div>
+                <div>
+                    <img src="./Assets/Images/mteacher.jpg" alt="Teacher">
+                    <h5>Mohammed Omar</h5>
+                    <p>Teacher1's bio</p>
+                </div>
+                <div>
+                    <img src="./Assets/Images/mteacher.jpg" alt="Teacher">
+                    <h5>John Willingham</h5>
+                    <p>Teacher1's bio</p>
+                </div>
+            </div>
+        </section>
+        <!--#########################################--->
+        <section id="plans" class="noHero even cards">
+            <h2>Plans</h2>
+            <div id="flex">
+                <div class="plan">
+                    <img src="./Assets/Images/plan.jpg" alt="card"> 
+                    <h4>Plan1 Title</h4>
+                    <ul>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                    </ul>
+                    <div class="pricing">
+                        <p>Price: X.XX$</p>
+                        <p>Duration: N months</p>
+                        <p>Access to all courses</p>
+                    </div>
+                </div>
+                <div class="plan">
+                    <img src="./Assets/Images/plan.jpg" alt="card"> 
+                    <h4>Plan1 Title</h4>
+                    <ul>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                    </ul>
+                    <div class="pricing">
+                        <p>Price: X.XX$</p>
+                        <p>Duration: N months</p>
+                        <p>Access to all courses</p>
+                    </div>
+                </div>
+                <div class="plan">
+                    <img src="./Assets/Images/plan.jpg" alt="card"> 
+                    <h4>Plan1 Title</h4>
+                    <ul>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                        <li>Feature1</li>
+                    </ul>
+                    <div class="pricing">
+                        <p>Price: X.XX$</p>
+                        <p>Duration: N months</p>
+                        <p>Access to all courses</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--#########################################--->
+        <section id="contactUs" class="noHero odd">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div>
+                    <label for="name">Name:</label>
+                </div>
+                <div>
+                    <input type="text" class="box" name="name" id="name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                </div>
+                <div>
+                    <input type="text" class="box" name="email" id="email">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                </div>
+                <div>
+                    <textarea name="message" class="box" id="message"></textarea>
+                </div>                
+            </form>
+            <button>Send Message</button>
+            <h2>Contact Info</h2>
+            <div>Email:<a href="mailto:5.points@gmail.com">5.points@gmail.com</a></div>
+            <div>Phone:<a href="tel:+2078889454">+2078889454</a></div>
+            
+        </section>
+    </main>
+    <footer>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a> 
+        <a href="#">Linkedin</a> 
+    </footer>
+
+</body>
+</html>
